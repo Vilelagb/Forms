@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #1A1A40, #270082, dodgerblue);
+  
+}
+
+legend {
+    color: white;
+    font-size: 14.5px;
+    border: 1px solid #1A1A40;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    background-color: dodgerblue;
+    padding: 13px;
+}
+
+label {
+    color: white;
+}
+
+#box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 20%;
+    box-shadow: black;
+    
+}
+
+fieldset {
+    border-radius: 10px;
+}
+
+#sexobox {
+    color: white;
+}
+
+.inputUser {
+    width: 70%;
+}
+
+fieldset {
+    border: 3px solid dodgerblue;
+}
+
+.lbpergunta {
+    font-size: 16px;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+.inputUser {
+    border: none;
+    border-radius: 1px;
+    background: none;
+    border-bottom: 1.5px solid white;
+    outline: none;
+    color: white;
+    padding: 6px;
+    width: 96%;
+    font-size: 15.4px;
+    letter-spacing: 2px;
+}
+
+button {
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10.5px;
+    margin-top: 10px;
+}
+
+p {
+    color: white;
+}
+
+#datebox {
+    border: none;
+    border-radius: 5px;
+    padding: 4px;
+    outline: none;
+}
+

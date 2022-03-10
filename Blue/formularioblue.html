@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de Clientes</title>
+    <link rel="stylesheet" href="fb.css">
+</head>
+<body>
+    <div id="box">
+        <form>
+            <fieldset>
+                <legend><b>Formulário de Clientes</b></legend>
+                <br>
+                <div class="inputbox">
+                    <label class="lbpergunta" for="">Nome completo:</label>
+                    <br>                   
+                    <input type="text" name="nome" id="nome" class="inputUser" required>                   
+                </div>
+                <br>
+                <div class="inputbox">
+                    <label class="lbpergunta" for="email">Email:</label>
+                    <br>                   
+                    <input type="text" name="email" id="email" class="inputUser" required>                   
+                </div>
+                <br>
+                <div class="inputbox">
+                    <label class="lbpergunta" for="">Telefone:</label>
+                    <br>                   
+                    <input type="text" name="telefone" id="telefone" class="inputUser" required>                   
+                </div>             
+                <p id="sexobox">Sexo:</p>
+                <input type="radio" id="feminino" name="genero" value="feminino" required>
+                <label for="feminino">Feminino</label>
+                <br>
+                <input type="radio" id="masculino" name="genero" value="masculino" required>
+                <label for="masculino">Masculino</label>
+                <br>
+                <input type="radio" id="outro" name="genero" value="outro" required>
+                <label for="outro">Outro</label>
+                <br>
+                <p>Ano de nascimento:</p>             
+                <input id="datebox" type="date">
+                <br><br>
+                <div class="inputbox">
+                    <label class="lbpergunta" for="">Cidade:</label>
+                    <br>                   
+                    <input type="text" name="cidade" id="cidade" class="inputUser" required>                   
+                </div>
+                <br>
+                <div class="inputbox">
+                    <label class="lbpergunta" for="">Estado:</label>
+                    <br>                   
+                    <input type="text" name="estado" id="estado" class="inputUser" required>                   
+                </div>
+                <br>
+                <div class="inputbox">
+                    <label class="lbpergunta" for="">Endereço:</label>
+                    <br>                   
+                    <input type="text" name="endereco" id="endereco" class="inputUser" required>                   
+                </div>
+                <button value="enviar">Enviar</button>
+            </fieldset>
+        </form>  
+    </div>
+</body>
+</html>
